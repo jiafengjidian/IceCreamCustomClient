@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/id_setting_view_pager"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y200"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="@dimen/x400"
+            android:layout_height="@dimen/y150"
+            android:layout_marginLeft="@dimen/x65"
+            android:background="@drawable/selector_setting_button"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/x70"
+            android:id="@+id/id_setting_button_up"
+            android:layout_gravity="center"
+            android:text="上一页"/>
+
+        <Button
+            android:layout_width="@dimen/x150"
+            android:layout_height="@dimen/x150"
+            android:background="@drawable/selector_pass_word_button"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/x40"
+            android:layout_gravity="center"
+            android:id="@+id/id_setting_button_save"
+            android:text="保存"
+            />
+
+        <Button
+            android:layout_width="@dimen/x400"
+            android:layout_height="@dimen/y150"
+            android:background="@drawable/selector_setting_button"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/x70"
+            android:id="@+id/id_setting_button_down"
+            android:layout_gravity="center"
+            android:text="下一页"/>
+
+    </LinearLayout>
+
+</LinearLayout>

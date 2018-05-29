@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/x800"
+    android:layout_height="@dimen/y1300"
+    android:background="@drawable/shape_popup_ice_cream_setting"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y150"
+        android:layout_marginLeft="@dimen/x100"
+        android:layout_marginRight="@dimen/x100"
+        android:layout_marginTop="@dimen/x70"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/x100"
+        android:text="请输入密码"
+        android:gravity="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x150"
+        android:layout_marginRight="@dimen/x100"
+        android:layout_marginLeft="@dimen/x100"
+        android:layout_marginTop="@dimen/x30"
+        android:layout_marginBottom="@dimen/x30"
+        android:background="@drawable/shape_pass_word_input"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="start|center_vertical"
+            android:textSize="@dimen/x80"
+            android:layout_marginLeft="@dimen/x50"
+            android:textColor="@android:color/black"
+            android:id="@+id/id_popup_setting_text_view_input"
+            android:text="3232" />
+        <ImageView
+            android:layout_width="@dimen/x150"
+            android:layout_height="@dimen/x150"
+            android:src="@drawable/ic_enter"
+            android:layout_marginRight="@dimen/x25"
+            android:scaleType="fitXY"
+            android:id="@+id/id_popup_setting_image_view_enter"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y200"
+        android:layout_marginLeft="@dimen/x100"
+        android:layout_marginRight="@dimen/x100"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="@dimen/x200"
+            android:layout_height="@dimen/y200"
+            android:background="@drawable/selector_pass_word_button"
+            android:textSize="@dimen/x60"
+            android:textColor="@android:color/white"
+            android:text="7"
+            android:id="@+id/id_popup_setting_button_7"
+            android:layout_gravity="center" />
+        <Button
+            android:layout_width="@dimen/x200"
+            android:layout_height="@dimen/y200"
+            android:background="@drawable/selector_pass_word_button"
+            android:textSize="@dimen/x60"
+            android:textColor="@android:color/white"
+            android:text="8"
+            android:id="@+id/id_popup_setting_button_8"
+            android:layout_gravity="center" />
+        <Button
+            android:layout_width="@dimen/x200"
+            android:layout_height="@dimen/y200"
+            android:background="@drawable/selector_pass_word_button"
+            android:textSize="@dimen/x60"
+            android:textColor="@android:color/white"
+            android:text="9"
+            android:id="@+id/id_popup_setting_button_9"
+            android:layout_gravity="center" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y200"
+        android:layout_marginLeft="@dimen/x100"
+        android:layout_marginRight="@dimen/x100"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="@dimen/x200"
+            android:layout_height="@dimen/y200"
+            android:background="@drawable/selector_pass_word_button"
+            android:textSize="@dimen/x60"
+            android:textColor="@android:color/white"
+            android:text="4"
+            android:id="@+id/id_popup_setting_button_4"
+            android:layout_gravity="center" />
+        <Button
+            android:layout_width="@dimen/x200"
+            android:layout_height="@dimen/y200"
+            android:background="@drawable/selector_pass_word_button"
+            android:textSize="@dimen/x60"
+            android:textColor="@android:color/white"
+            android:text="5"
+            android:id="@+id/id_popup_setting_button_5"
+            android:layout_gravity="center" />
+        <Button
+            android:layout_width="@dimen/x200"
+            android:layout_height="@dimen/y200"
+            android:background="@drawable/selector_pass_word_button"
+            android:textSize="@dimen/x60"
+            android:textColor="@android:color/white"
+            android:text="6"
+            android:id="@+id/id_popup_setting_button_6"
+            android:layout_gravity="center" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y200"
+        android:layout_marginLeft="@dimen/x100"
+        android:layout_marginRight="@dimen/x100"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="@dimen/x200"
+            android:layout_height="@dimen/y200"
+            android:background="@drawable/selector_pass_word_button"
+            android:textSize="@dimen/x60"
+            android:textColor="@android:color/white"
+            android:id="@+id/id_popup_setting_button_1"
+            android:text="1"
+            android:layout_gravity="center" />
+        <Button
+            android:layout_width="@dimen/x200"
+            android:layout_height="@dimen/y200"
+            android:background="@drawable/selector_pass_word_button"
+            android:textSize="@dimen/x60"
+            android:id="@+id/id_popup_setting_button_2"
+            android:textColor="@android:color/white"
+            android:text="2"
+            android:layout_gravity="center" />
+        <Button
+            android:layout_width="@dimen/x200"
+            android:layout_height="@dimen/y200"
+            android:background="@drawable/selector_pass_word_button"
+            android:textSize="@dimen/x60"
+            android:id="@+id/id_popup_setting_button_3"
+            android:textColor="@android:color/white"
+            android:text="3"
+            android:layout_gravity="center" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y200"
+        android:layout_marginLeft="@dimen/x100"
+        android:layout_marginRight="@dimen/x100"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="@dimen/x200"
+            android:layout_height="@dimen/y200"
+            android:background="@drawable/selector_pass_word_button"
+            android:textSize="@dimen/x60"
+            android:textColor="@android:color/white"
+            android:id="@+id/id_popup_setting_button_back"
+            android:text="B"
+            android:layout_gravity="center" />
+        <Button
+            android:layout_width="@dimen/x200"
+            android:layout_height="@dimen/y200"
+            android:background="@drawable/selector_pass_word_button"
+            android:textSize="@dimen/x60"
+            android:id="@+id/id_popup_setting_button_0"
+            android:textColor="@android:color/white"
+            android:text="0"
+            android:layout_gravity="center" />
+        <Button
+            android:layout_width="@dimen/x200"
+            android:layout_height="@dimen/y200"
+            android:background="@drawable/selector_pass_word_button"
+            android:textSize="@dimen/x60"
+            android:id="@+id/id_popup_setting_button_clear"
+            android:textColor="@android:color/white"
+            android:text="C"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+
+</LinearLayout>

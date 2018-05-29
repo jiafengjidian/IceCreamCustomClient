@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/x600"
+    android:layout_height="@dimen/y1030"
+    android:background="@drawable/shape_popup_ice_cream_setting"
+    android:padding="@dimen/x50"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="@dimen/x358"
+        android:layout_height="@dimen/y218"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_cream_1"
+        android:id="@+id/id_popup_ice_cream_setting_image_view"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y100"
+        android:layout_marginTop="@dimen/y70"
+        android:background="@drawable/shape_pass_word_input"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:hint="请输入名称"
+            android:textSize="@dimen/x40"
+            android:textColor="@android:color/black"
+            android:id="@+id/id_popup_ice_cream_setting_edit_text_name"
+            android:gravity="center" />
+        <ImageView
+            android:layout_width="@dimen/x80"
+            android:layout_height="@dimen/x80"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/x25"
+            android:id="@+id/id_popup_ice_cream_setting_name_image_clear"
+            android:src="@drawable/ic_clear" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x100"
+        android:layout_marginTop="@dimen/y30"
+        android:background="@drawable/shape_pass_word_input"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:hint="请输入价格"
+            android:textSize="@dimen/x40"
+            android:textColor="@android:color/black"
+            android:inputType="numberDecimal|number"
+            android:id="@+id/id_popup_ice_cream_setting_edit_text_price"
+            android:gravity="center" />
+        <ImageView
+            android:layout_width="@dimen/x80"
+            android:layout_height="@dimen/x80"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/x25"
+            android:id="@+id/id_popup_ice_cream_setting_price_image_clear"
+            android:src="@drawable/ic_clear" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x100"
+        android:layout_marginTop="@dimen/y30"
+        android:background="@drawable/shape_pass_word_input"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:hint="请输入数量"
+            android:textSize="@dimen/x40"
+            android:inputType="number"
+            android:id="@+id/id_popup_ice_cream_setting_edit_text_number"
+            android:textColor="@android:color/black"
+            android:gravity="center" />
+        <ImageView
+            android:layout_width="@dimen/x80"
+            android:layout_height="@dimen/x80"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/x25"
+            android:id="@+id/id_popup_ice_cream_setting_image_number_clear"
+            android:src="@drawable/ic_clear" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x100"
+        android:layout_marginTop="@dimen/y30"
+        android:background="@drawable/shape_pass_word_input"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:hint="请输入货道"
+            android:textSize="@dimen/x40"
+            android:inputType="text"
+            android:id="@+id/id_popup_ice_cream_setting_edit_text_goodsType"
+            android:textColor="@android:color/black"
+            android:gravity="center" />
+        <ImageView
+            android:layout_width="@dimen/x80"
+            android:layout_height="@dimen/x80"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/x25"
+            android:id="@+id/id_popup_ice_cream_setting_image_goodsType_clear"
+            android:src="@drawable/ic_clear" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y120"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/y30">
+        <Button
+            android:layout_width="@dimen/x200"
+            android:layout_height="@dimen/y80"
+            android:background="@drawable/selector_popup_setting_button"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/x50"
+            android:layout_gravity="center"
+            android:id="@+id/id_popup_ice_cream_setting_button_cancel"
+            android:text="取消"
+            />
+        <Button
+            android:layout_width="@dimen/x200"
+            android:layout_height="@dimen/y80"
+            android:background="@drawable/selector_popup_setting_button"
+            android:layout_marginLeft="@dimen/x100"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center"
+            android:textSize="@dimen/x50"
+            android:id="@+id/id_popup_ice_cream_setting_button_ok"
+            android:text="确定"
+            />
+    </LinearLayout>
+
+</LinearLayout>
